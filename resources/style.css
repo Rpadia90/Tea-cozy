@@ -16,7 +16,7 @@ header {
   top: 0;
 }
 
-h2, h3, h4 {
+h2, h3, h4, p {
   font-family: Helvetica;
   color: seashell;
 }
@@ -123,4 +123,40 @@ nav {
 .box1, .box2, .box3, .box4, .box5 {
   margin-right: 20px;
   margin-left: 20px;
+}
+
+.bottomimage img {
+  height: 500px;
+  width: 1200px;
+  z-index: 1;
+  margin-top: 60px;
+}
+
+.backgroundimage {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottomtext {
+  margin-top: -470px;
+}
+
+.bb1, .bb2, .bb3 {
+  background-color: black;
+  opacity: 1;
+  height: 300px;
+  width: 300px;
+  z-index: 2;
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.bb1 {
+  margin-left: 40px;
+}
+
+.blackboxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
