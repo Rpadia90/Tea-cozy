@@ -13,6 +13,12 @@ header {
   width: 100%;
   height: 69px;
   border-bottom: 1px solid seashell;
+  top: 0;
+}
+
+h2, h3, h4 {
+  font-family: Helvetica;
+  color: seashell;
 }
 
 nav span a {
@@ -35,4 +41,46 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   margin-top:23.5px;
+}
+
+/*Content*/
+
+.content {
+  background-color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.text1 {
+  background-color: black;
+  margin-bottom: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-top: -450px;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.firstrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.firstrow img {
+  height: 700px;
+  width: 1200px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.text1 h2 {
+  margin-bottom: 10px;
+}
+
+.text1 h3 {
+  margin-top: 100px;
 }
