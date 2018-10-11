@@ -1,5 +1,6 @@
 body {
   margin: 0 auto;
+  background-color: black;
 }
 
 header {
@@ -16,7 +17,7 @@ header {
   top: 0;
 }
 
-h2, h3, h4, p {
+h2, h3, h4, p, h5 {
   font-family: Helvetica;
   color: seashell;
 }
@@ -128,8 +129,7 @@ nav {
 .bottomimage img {
   height: 500px;
   width: 1200px;
-  z-index: 1;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 .backgroundimage {
@@ -146,7 +146,6 @@ nav {
   opacity: 1;
   height: 300px;
   width: 300px;
-  z-index: 2;
   display: inline-block;
   margin-right: 40px;
 }
@@ -159,4 +158,27 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+footer {
+  height: 200px;
+  margin-top: 110px;
+}
+
+.endtext {
+  text-align: center;
+}
+
+.copy {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+footer h2 {
+  margin-bottom: 30px;
+}
+
+.copy h5 {
+  margin-bottom: 20px;
 }
